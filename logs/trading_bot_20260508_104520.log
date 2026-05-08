@@ -1,0 +1,13 @@
+2026-05-08 10:45:20 - bot.client - INFO - __init__:46 - BinanceClient initialized for testnet: https://testnet.binancefuture.com
+2026-05-08 10:45:20 - bot.orders - INFO - __init__:23 - OrderManager initialized
+2026-05-08 10:45:20 - bot.validators - DEBUG - validate_order_params:161 - Validating order params: symbol=BTCUSDT, side=buy, order_type=market, quantity=0.001, price=None
+2026-05-08 10:45:20 - bot.validators - DEBUG - validate_symbol:40 - Symbol validated: BTCUSDT
+2026-05-08 10:45:20 - bot.validators - DEBUG - validate_side:62 - Side validated: BUY
+2026-05-08 10:45:20 - bot.validators - DEBUG - validate_order_type:84 - Order type validated: MARKET
+2026-05-08 10:45:20 - bot.validators - DEBUG - validate_quantity:109 - Quantity validated: 0.001
+2026-05-08 10:45:20 - bot.validators - DEBUG - validate_order_params:179 - All order parameters validated successfully
+2026-05-08 10:45:20 - bot.client - INFO - place_order:205 - Placing MARKET order: BTCUSDT BUY 0.001
+2026-05-08 10:45:20 - bot.client - DEBUG - _request:97 - POST /fapi/v1/order with params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1778217320531, 'signature': '***'}
+2026-05-08 10:45:20 - bot.client - DEBUG - _request:112 - Response: {'orderId': 13119832645, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'UJjhZMLUWspPQZmJfRZAvW', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1778217320171}
+2026-05-08 10:45:20 - bot.client - INFO - place_order:215 - Order placed successfully: orderId=13119832645, status=NEW, executedQty=0.0000
+2026-05-08 10:45:20 - __main__ - INFO - place_order:126 - Order placement successful via CLI: {'orderId': 13119832645, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'UJjhZMLUWspPQZmJfRZAvW', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1778217320171}

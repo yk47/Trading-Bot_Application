@@ -1,0 +1,4 @@
+2026-05-08 10:45:11 - bot.client - INFO - __init__:46 - BinanceClient initialized for testnet: https://testnet.binancefuture.com
+2026-05-08 10:45:11 - bot.client - DEBUG - _request:97 - GET /fapi/v1/time with params: {}
+2026-05-08 10:45:12 - bot.client - DEBUG - _request:112 - Response: {'serverTime': 1778217311407}
+2026-05-08 10:45:12 - __main__ - INFO - test_connection:258 - Connection test successful

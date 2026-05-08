@@ -1,0 +1,5 @@
+2026-05-08 10:45:45 - bot.client - INFO - __init__:46 - BinanceClient initialized for testnet: https://testnet.binancefuture.com
+2026-05-08 10:45:45 - bot.orders - INFO - __init__:23 - OrderManager initialized
+2026-05-08 10:45:45 - bot.validators - DEBUG - validate_order_params:161 - Validating order params: symbol=Hi, side=buy, order_type=market, quantity=Good, price=None
+2026-05-08 10:45:45 - bot.orders - ERROR - place_order:56 - Validation failed: Invalid symbol format: HI. Expected format like BTCUSDT
+2026-05-08 10:45:45 - __main__ - ERROR - place_order:136 - Validation error: Invalid symbol format: HI. Expected format like BTCUSDT
